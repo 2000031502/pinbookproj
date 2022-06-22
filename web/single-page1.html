@@ -1,0 +1,200 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pinbook Website | single-page :: </title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<script src="js/jquery.min.js"></script>
+         <script type="text/javascript">
+			var $ = jQuery.noConflict();
+				$(function() {
+					$('#activator').click(function(){
+						$('#box').animate({'top':'0px'},500);
+					});
+					$('#boxclose').click(function(){
+					$('#box').animate({'top':'-700px'},500);
+					});
+				});
+				$(document).ready(function(){
+				//Hide (Collapse) the toggle containers on load
+				$(".toggle_container").hide(); 
+				//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+				$(".trigger").click(function(){
+					$(this).toggleClass("active").next().slideToggle("slow");
+						return false; //Prevent the browser jump to the link anchor
+				});
+									
+			});
+		</script>
+	</head>
+	<body>
+			<div class="header">
+				<div class="wrap">
+                    <div class="lo">
+                        <a href="index.html"><img src="images/lo.png" title="pinbook" style="height: 50px;" /></a>
+				</div>
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a href="index.html"><span>home</span></a></li>
+										<li><a href="about.html"><span>About</span></a></li>
+										<li><a href="contact.html"><span>Contact</span></a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+				<div class="top-searchbar">
+					<form>
+						<input type="text" /><input type="submit" value="" />
+					</form>
+				</div>
+				<div class="userinfo">
+					<div class="user">
+						<ul>
+							<li><a href="#"><img src="images/user-pic.png" title="user-name" /><span>Ipsum</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="wrap">
+			<div class="single-page">
+							<div class="single-page-artical">
+								<div class="artical-content">
+									<img src="images/img2.jpg" title="banner1" width="200" height="600">
+									<h3 style="color: black;"><a href="#" >The Fugitive Colours(Genevieve Planché #2)by Nancy Bilyeau</a></h3>
+
+									<p>The highly anticipated follow-up to the sweeping historical thriller The Blue is a story of silkweavers, painters...and spies.
+
+                                        As Genevieve Sturbridge struggles to keep her silk design business afloat, she must face the fact that London in 1764 is very much a man’s world. Men control the arts and sciences, men control politics and law. And men definitely control women.
+                                        
+                                        A Huguenot living in Spitalfields, Genevieve one day receives a surprise invitation from an important artist. Grasping at the promise of a better life, she dares to hope her luck is about to change and readies herself for an entry into the world of serious art.
+                                        
+                                        She soon learns that for the portrait painters ruling over the wealthy in London society, fame and fortune are there for the taking. But such high stakes spur rivalries that darken to sabotage and blackmail—and even murder.
+                                        
+                                        Genevieve begins to suspect that her own secret past, when she was caught up in conspiracy and betrayal, has more to do with her entrée into London society than her talent. One wrong move could cost her not just her artistic dreams but the love of those she holds dear.
+                                        
+                                        It’s a delicate dance, and a dangerous situation. And not just for Genevieve and her loved ones. . . because all the while there are ruthless spies who wish harm to England itself watching from the shadows.
+                                        
+                                        A sequel to Nancy Bilyeau’s The Blue, The Fugitive Colours again reveals a dazzling world of glamour and treachery in Georgian England, when beauty held more value than human life. She immerses readers in a fictionalized account of real lives and events whilst staying faithful to the historical and social context.</p> 
+								    </div>
+								    <div class="artical-links">
+		  						 	<ul>
+		  						 		<li><a href="#"><img src="images/blog-icon2.png" title="Admin"><span>admin</span></a></li>
+		  						 		<li><a href="#"><img src="images/blog-icon3.png" title="Comments"><span>No comments</span></a></li>
+		  						 		<li><a href="#"><img src="images/blog-icon4.png" title="Lables"><span>View posts</span></a></li>
+		  						 	</ul>
+		  						 </div>
+		  						 <div class="share-artical">
+		  						 	<ul>
+		  						 		<li><a href="#"><img src="images/facebooks.png" title="facebook">Facebook</a></li>
+		  						 		<li><a href="#"><img src="images/twiter.png" title="Twitter">Twiiter</a></li>
+		  						 		<li><a href="#"><img src="images/google+.png" title="google+">Google+</a></li>
+		  						 		<li><a href="#"><img src="images/rss.png" title="rss">Rss</a></li>
+		  						 	</ul>
+		  						 </div>
+		  						 <div class="clear"> </div>
+							</div>
+							<!---start-comments-section--->
+							<div class="comment-section">
+				<div class="grids_of_2">
+					<h2>Comments</h2>
+					<div class="grid1_of_2">
+						<div class="grid_img">
+							<a href=""><img src="images/pic10.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Nancy Bilyeau</a></h4>
+							<h3 class="style">march 2, 2013 - 12.50 AM</h3>
+							<p class="para top" style="color: black;">When I decided to write another book with Genevieve as the main character, it was important to me to explore consequences. A great many things happen to Genevieve and other characters in 'The Blue.' It's a pet peeve of mine that in suspense fiction, characters don't always seem to be changed by momentous events in a book. Without giving spoilers, I wanted to write about how the adventures and misadventures of 'The Blue' would shape her character. But I also worked hard so that anyone could follow 'The Fugitive Colours' without having read 'The Blue.' It was quite the challenge. :)</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="grid1_of_2 left">
+						<div class="grid_img">
+							<a href=""><img src="images/pic10.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Literary Redhead</a></h4>
+							<h3 class="style">march 3, 2013 - 4.00 PM</h3>
+							<p class="para top" style="color: black;">The Fugitive Colours
+                                by Nancy Bilyeau
+                                Lume Books
+                                Pub Date: May 12 <br>
+                                
+                                I completely fell under the sway of Nancy Bilyeau's The Fugitive Colours, sequel to the highly regarded The Blue.
+                                
+                                Genevieve, a silk designer in Georgian England (London, 1764), finds that men not only control the arts market, but every aspect of society. She struggles financially and is thrilled when she receives an unexpected invitation from a famed artist.
+                                
+                                Yet it comes with a price, she finds, as cutthroat competitors threaten artists' livelihoods and lives. Adding to the treachery are spies who want control over England. A beautifully written historical thriller that can be read as a standalone but makes readers like me want to go back and read The Blue immediately. Highly recommended!</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="grid1_of_2">
+						<div class="grid_img">
+							<a href=""><img src="images/pic12.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Kathy</a></h4>
+							<h3 class="style">march 2, 2013 - 12.50 AM</h3>
+							<p class="para top" style="color: black;">A good bit of troubling incidents and family struggles not anticipated disturb the onward and upward path of our struggling artist who is drawn into intrigue unwillingly.
+
+                                <br>Kindle Unlimited</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>								
+						<div class="artical-commentbox">
+						 	<h2>Leave a Comment</h2>
+				  			<div class="table-form">
+								<form action="#" method="post" name="post_comment">
+									<div>
+										<label>Name<span>*</span></label>
+										<input type="text" value=" ">
+									</div>
+									<div>
+										<label>Email<span>*</span></label>
+										<input type="text" value=" ">
+									</div>
+									<div>
+										<label>Your Comment<span>*</span></label>
+										<textarea> </textarea>	
+									</div>
+								</form>
+								<input type="submit" value="submit">
+									
+							</div>
+							<div class="clear"> </div>
+				  		</div>			
+					</div>
+			</div>
+
+						</div>
+						 </div>
+		</div>
+		<div class="footer">
+			<p>Design by <a href="index.html"></a>PinBook</p>
+		</div>
+	</body>
+</html>
+

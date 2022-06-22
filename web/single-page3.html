@@ -1,0 +1,190 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pinbook Website | single-page :: </title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<script src="js/jquery.min.js"></script>
+         <script type="text/javascript">
+			var $ = jQuery.noConflict();
+				$(function() {
+					$('#activator').click(function(){
+						$('#box').animate({'top':'0px'},500);
+					});
+					$('#boxclose').click(function(){
+					$('#box').animate({'top':'-700px'},500);
+					});
+				});
+				$(document).ready(function(){
+				//Hide (Collapse) the toggle containers on load
+				$(".toggle_container").hide(); 
+				//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+				$(".trigger").click(function(){
+					$(this).toggleClass("active").next().slideToggle("slow");
+						return false; //Prevent the browser jump to the link anchor
+				});
+									
+			});
+		</script>
+	</head>
+	<body>
+			<div class="header">
+				<div class="wrap">
+				<div class="lo">
+					<a href="index.html"><img src="images/lo.png" title="pinbook" style="height: 50px;" /></a>
+				</div>
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a href="index.html"><span>home</span></a></li>
+										<li><a href="about.html"><span>About</span></a></li>
+										<li><a href="contact.html"><span>Contact</span></a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+				<div class="top-searchbar">
+					<form>
+						<input type="text" /><input type="submit" value="" />
+					</form>
+				</div>
+				<div class="userinfo">
+					<div class="user">
+						<ul>
+							<li><a href="#"><img src="images/user-pic.png" title="user-name" /><span>Ipsum</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="wrap">
+			<div class="single-page">
+							<div class="single-page-artical">
+								<div class="artical-content">
+									<img src="images/img4.jpg" title="banner1" width="200" height="600">
+									<h3 style="color: black;"><a href="#" >In an Indian village in the 1950s, a precocious child is born into a family of Dalit coconut farmers. King Rao will grow up to be the most accomplished tech CEO in the world and, eventually, the leader of a global, corporate-led government.
+
+                                        In a future in which the world is run by the Board of Corporations, King’s daughter, Athena, reckons with his legacy—literally, for he has given her access to his memories, among other questionable gifts.
+                                        
+                                        With climate change raging, Athena has come to believe that saving the planet and its Shareholders will require a radical act of communion—and so she sets out to tell the truth to the world’s Shareholders, in entrancing sensory detail, about King’s childhood on a South Indian coconut plantation; his migration to the U.S. to study engineering in a world transformed by globalization; his marriage to the ambitious artist with whom he changed the world; and, ultimately, his invention, under self-exile, of the most ambitious creation of his life—Athena herself.
+                                        
+                                        The Immortal King Rao, written by a former Wall Street Journal technology reporter, is a resonant debut novel obliterating the boundaries between literary and speculative fiction, the historic and the dystopian, confronting how we arrived at the age of technological capitalism and where our actions might take us next.</p> 
+								    </div>
+								    <div class="artical-links">
+		  						 	<ul>
+		  						 		<li><a href="#"><img src="images/blog-icon2.png" title="Admin"><span>admin</span></a></li>
+		  						 		<li><a href="#"><img src="images/blog-icon3.png" title="Comments"><span>No comments</span></a></li>
+		  						 		<li><a href="#"><img src="images/blog-icon4.png" title="Lables"><span>View posts</span></a></li>
+		  						 	</ul>
+		  						 </div>
+		  						 <div class="share-artical">
+		  						 	<ul>
+		  						 		<li><a href="#"><img src="images/facebooks.png" title="facebook">Facebook</a></li>
+		  						 		<li><a href="#"><img src="images/twiter.png" title="Twitter">Twiiter</a></li>
+		  						 		<li><a href="#"><img src="images/google+.png" title="google+">Google+</a></li>
+		  						 		<li><a href="#"><img src="images/rss.png" title="rss">Rss</a></li>
+		  						 	</ul>
+		  						 </div>
+		  						 <div class="clear"> </div>
+							</div>
+							<!---start-comments-section--->
+							<div class="comment-section">
+				<div class="grids_of_2">
+					<h2>Comments</h2>
+					<div class="grid1_of_2">
+						<div class="grid_img">
+							<a href=""><img src="images/pic10.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Henk</a></h4>
+							<h3 class="style">march 2, 2013 - 12.50 AM</h3>
+							<p class="para top" style="color: black;">There is a kind of action that resembles inaction, and it’s the kind of action society is based on
+
+                                Very impressive, I highly enjoyed this debut that with a steady hand guides the reader from rural post-World War II India to start-up Silicon Valley’s earlier times and then the near future, threatened by climate change.
+                                In my view Vauhini Vara her writing can go toe to toe with the best of Emily St. John Mandel, while being far superior to The Every of Dave Eggers or Booker shortlisted The New Wilderness from Diane Cook.</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="grid1_of_2 left">
+						<div class="grid_img">
+							<a href=""><img src="images/pic10.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Golden</a></h4>
+							<h3 class="style">march 3, 2013 - 4.00 PM</h3>
+							<p class="para top" style="color: black;">Published in the UK today 2-6-22
+
+                                This intelligently written book is effectively an intriguing mix of two different genres:
+                                
+                                Indian family saga - think say Arundhati Roy’s earlier work) with a US immigrant angle (think Salman Rushdie in particular)
+                                
+                                Dystopian tech story – think somewhere on a spectrum between the rather clumsy execution of Dave Eggers and the literary obliqueness of Emily St John Mandel (but borrowing the naming conventions of Margaret Atwood).</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="grid1_of_2">
+						<div class="grid_img">
+							<a href=""><img src="images/pic12.jpg" alt=""></a>
+						</div>
+						<div class="grid_text">
+							<h4 class="style1 list"><a href="#">Therese</a></h4>
+							<h3 class="style">march 2, 2013 - 12.50 AM</h3>
+							<p class="para top" style="color: black;">The book tells the story of an Indian Untouchable, King Rao, whose mantra that there’s no problem that can’t be solved and his beyond genius computer skills end up literally changing the world. He and his wife start a company called Coconut (think Apple), that over time evolves into a super corporation that, as private industry, can provide the world’s people with whatever they need, better than the governments of their own countries ever possibly can. The company and its Algo (algorithm) ends up ruling the world, whose citizens become its shareholders.</p>
+							<a href="" class="btn1">Click to Reply</a>
+						</div>
+						<div class="clear"></div>
+					</div>								
+						<div class="artical-commentbox">
+						 	<h2>Leave a Comment</h2>
+				  			<div class="table-form">
+								<form action="#" method="post" name="post_comment">
+									<div>
+										<label>Name<span>*</span></label>
+										<input type="text" value=" ">
+									</div>
+									<div>
+										<label>Email<span>*</span></label>
+										<input type="text" value=" ">
+									</div>
+									<div>
+										<label>Your Comment<span>*</span></label>
+										<textarea> </textarea>	
+									</div>
+								</form>
+								<input type="submit" value="submit">
+									
+							</div>
+							<div class="clear"> </div>
+				  		</div>			
+					</div>
+			</div>
+
+						</div>
+						 </div>
+		</div>
+		<div class="footer">
+			<p>Design by <a href="index.html"></a>PinBook</p>
+		</div>
+	</body>
+</html>
+
